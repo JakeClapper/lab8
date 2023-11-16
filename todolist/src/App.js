@@ -1,7 +1,5 @@
 import { useRef, useState } from "react";
-import "./assets/css/style.css";
-import Navbar from "./components/Navbar";
-import bg from "./assets/images/bg.jpg";
+import "./App.css"
 
 function App() {
   const [task, setTask] = useState([]);
